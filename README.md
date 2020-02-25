@@ -9,7 +9,7 @@ mvn clean package
 To build the Docker image for web application, you have to invoke the next commands from the project's root folder:
 ```
 cd ./test-project-server
-mvn  dockerfile:build -Ddockerfile.repository=some-repo/test-project-server -Ddockerfile.tag=SNAPSHOT
+mvn  dockerfile:build -Ddockerfile.repository=some-repo/test-project-server -Ddockerfile.tag=development-SNAPSHOT
 ```
 Then you can verify that image was created succefully:
 ```
